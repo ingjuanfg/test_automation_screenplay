@@ -1,0 +1,2 @@
+src/test/java/co/com/ingjuanfg/runners/BookingFlightRunner.java,1585710843809718000,451,FORMATTED
+src/test/java/co/com/ingjuanfg/stepdefinitions/BookingFlightStepDefinition.java,1585711222280721000,704,FORMATTED
