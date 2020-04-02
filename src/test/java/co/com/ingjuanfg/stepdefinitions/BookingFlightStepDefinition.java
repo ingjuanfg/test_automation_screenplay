@@ -1,31 +1,27 @@
 package co.com.ingjuanfg.stepdefinitions;
 
-import cucumber.api.java.Before;
+import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
+
+import co.com.ingjuanfg.interactions.OpenBrowser;
+import co.com.ingjuanfg.tasks.Search;
+import co.com.ingjuanfg.tasks.Car;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import net.serenitybdd.screenplay.actors.OnStage;
-import net.serenitybdd.screenplay.actors.OnlineCast;
 
 public class BookingFlightStepDefinition {
 
-  @Before
-  public void prepareStage() {
-    OnStage.setTheStage(new OnlineCast());
+  @Given("^that (.*) searchs the flight options$")
+  public void thatTheUserWantsToLookSomeFlights(String nameActor) {
+    theActorCalled(nameActor).wasAbleTo(OpenBrowser.withSpecificUrl(),
+            Search.flight(),
+            Search.car()
+    );
   }
 
-  @Given("^that the User wants to look some flights$")
-  public void thatTheUserWantsToLookSomeFlights() {
+  @When("^he selects the flight$")
+  public void heSelectsTheFlight() {}
 
-  }
-
-  @When("^He selects the flight$")
-  public void heSelectsTheFlight() {
-
-  }
-
-  @Then("^He should see the ticket$")
-  public void heShouldSeeTheTicket() {
-      
-  }
+  @Then("^he should see the ticket$")
+  public void heShouldSeeTheTicket() {}
 }

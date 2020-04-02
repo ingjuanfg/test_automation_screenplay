@@ -1,2 +1,8 @@
+src/test/java/co/com/ingjuanfg/stepdefinitions/Hooks.java,1585789660093199000,305,FORMATTED
+src/main/java/co/com/ingjuanfg/utils/constants/TravelocityOptionsConstants.java,1585793355064890000,431,FORMATTED
+src/main/java/co/com/ingjuanfg/interactions/SelectTravelocity.java,1585792968670261000,806,FORMATTED
+src/main/java/co/com/ingjuanfg/user_interfaces/HomePage.java,1585793354988096000,358,FORMATTED
+src/main/java/co/com/ingjuanfg/tasks/Search.java,1585793354969147000,661,FORMATTED
+src/main/java/co/com/ingjuanfg/interactions/OpenBrowser.java,1585790270060735000,654,FORMATTED
 src/test/java/co/com/ingjuanfg/runners/BookingFlightRunner.java,1585710843809718000,451,FORMATTED
-src/test/java/co/com/ingjuanfg/stepdefinitions/BookingFlightStepDefinition.java,1585711222280721000,704,FORMATTED
+src/test/java/co/com/ingjuanfg/stepdefinitions/BookingFlightStepDefinition.java,1585793355113761000,742,FORMATTED

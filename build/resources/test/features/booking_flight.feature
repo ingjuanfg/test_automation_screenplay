@@ -1,9 +1,9 @@
-Feature: Book a flight in USA
+Feature: Book a local flight
   I as user
-  I want to search the flies in USA
-  To buy something
+  I want to search the fligths in my country
+  To realize a bussiness travel
 
-  Scenario: Buy a flight sucessfully
-    Given that the User wants to look some flights
-    When He selects the flight
-    Then He should see the ticket
+  Scenario: Buy a local flight sucessfully
+    Given that Juan searchs the flight options
+    When he selects the flight
+    Then he should see the ticket
