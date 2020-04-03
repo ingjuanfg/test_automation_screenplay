@@ -1,10 +1,13 @@
 package co.com.ingjuanfg.stepdefinitions;
 
+import static co.com.ingjuanfg.utils.constants.TravelocityOptionsConstants.DEPARTING;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 
 import co.com.ingjuanfg.interactions.OpenBrowser;
+import co.com.ingjuanfg.interactions.SelectDateCalander;
 import co.com.ingjuanfg.tasks.Search;
 import co.com.ingjuanfg.tasks.Car;
+import co.com.ingjuanfg.tasks.SearchFlight;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -15,7 +18,9 @@ public class BookingFlightStepDefinition {
   public void thatTheUserWantsToLookSomeFlights(String nameActor) {
     theActorCalled(nameActor).wasAbleTo(OpenBrowser.withSpecificUrl(),
             Search.flight(),
-            Search.car()
+            SearchFlight.informationFlight("LAX","LAS","9/6/2020","9/8/2020")
+
+
     );
   }
 
