@@ -18,25 +18,18 @@ public class DateManager {
     return calendar;
   }
 
-  public static String getYearAndMonth(String date) throws ParseException {
-    Calendar calendar = getCalendar(date);
-    String year = Integer.toString(calendar.get(Calendar.YEAR));
-    String month = new SimpleDateFormat("MMM", Locale.ENGLISH).format(calendar.getTime());
-    return month + " " + year;
-  }
-
   public static String getYear(String date) throws ParseException {
     Calendar calendar = getCalendar(date);
-    return Integer.toString(calendar.get(Calendar.YEAR));
+    return String.valueOf(calendar.get(Calendar.YEAR));
   }
 
-  public static int getMonth(String date) throws ParseException {
+  public static String getMonth(String date) throws ParseException {
     Calendar calendar = getCalendar(date);
-    return calendar.get(Calendar.MONTH);
+    return String.valueOf(calendar.get(Calendar.MONTH));
   }
 
-  public static int getDay(String date) throws ParseException {
+  public static String getDay(String date) throws ParseException {
     Calendar calendar = getCalendar(date);
-    return calendar.get(Calendar.DAY_OF_MONTH);
+    return String.valueOf(calendar.get(Calendar.DAY_OF_MONTH));
   }
 }
