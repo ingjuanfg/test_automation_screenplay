@@ -7,4 +7,6 @@ public class TravelocityOptionsConstants {
   public static final String CARS_OPTION = "car";
   public static final String CRUISERS_OPTION = "cruise";
   public static final String THINGS_OPTION = "activity";
+  public static final String DEPARTURE_DATE_INPUT = "departing";
+  public static final String RETURNING_DATE_INPUT = "returning";
 }

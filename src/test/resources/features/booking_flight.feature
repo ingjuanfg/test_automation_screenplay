@@ -9,7 +9,7 @@ Feature: Book a local flight
       | destinyCity   | New York                  |
       | flyingFrom    | Avalon, CA (AVX-Catalina) |
       | flyingTo      | Islip, NY (ISP-MacArthur) |
-      | departingDate | 06/04/2020                |
-      | returningDate | 09/04/2020                |
+      | departingDate | 20/04/2020                |
+      | returningDate | 10/05/2020                |
     When he selects the flight
     Then he should see the ticket
