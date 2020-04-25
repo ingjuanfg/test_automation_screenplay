@@ -1,6 +1,5 @@
 package co.com.ingjuanfg.stepdefinitions;
 
-import co.com.ingjuanfg.interactions.Close;
 import co.com.ingjuanfg.interactions.OpenBrowser;
 import co.com.ingjuanfg.tasks.Booking;
 import co.com.ingjuanfg.tasks.Choose;
@@ -27,7 +26,7 @@ public class BookingFlightStepDefinition {
   @When("^he selects the flight$")
   public void heSelectsTheFlight() {
     theActorInTheSpotlight().attemptsTo(
-            Choose.theSpecificFlight());
+            Choose.destinyFlight());
   }
 
   @Then("^he should see the ticket$")
