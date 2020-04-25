@@ -7,9 +7,9 @@ Feature: Book a local flight
     Given that Juan searchs the flight options
       | originCity    | Los Angeles               |
       | destinyCity   | New York                  |
-      | flyingFrom    | Avalon, CA (AVX-Catalina) |
-      | flyingTo      | Islip, NY (ISP-MacArthur) |
-      | departingDate | 20/04/2020                |
-      | returningDate | 10/05/2020                |
+      | flyingFrom    | Los Angeles, CA (LAX-Los Angeles Intl.) |
+      | flyingTo      | New York (NYC-All Airports) |
+      | departingDate | 20/05/2020                |
+      | returningDate | 26/05/2020                |
     When he selects the flight
     Then he should see the ticket

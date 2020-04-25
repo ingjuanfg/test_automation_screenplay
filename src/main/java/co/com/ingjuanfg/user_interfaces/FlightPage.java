@@ -19,4 +19,7 @@ public class FlightPage {
   public static final Target BTN_CALENDAR_NEXT_MONTHS =
       Target.the("The button to show next months")
           .locatedBy("//button[contains(@class,'btn-secondary next')]");
+  public static final Target BTN_SEARCH_FLIGHT =
+      Target.the("The button to search a specific flight")
+          .locatedBy("(//button[@data-gcw-change-submit-text='Search'])[1]");
 }
