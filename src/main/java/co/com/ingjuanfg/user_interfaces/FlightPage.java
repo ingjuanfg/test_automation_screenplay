@@ -15,7 +15,8 @@ public class FlightPage {
           .locatedBy("//input[@id='flight-{0}-hp-flight']");
   public static final Target BTN_CALENDAR_DAY =
       Target.the("Date of departure")
-          .locatedBy("//button[@class='datepicker-cal-date' and @data-year='{0}' and @data-month='{1}' and @data-day='{2}']");
+          .locatedBy(
+              "//button[@class='datepicker-cal-date' and @data-year='{0}' and @data-month='{1}' and @data-day='{2}']");
   public static final Target BTN_CALENDAR_NEXT_MONTHS =
       Target.the("The button to show next months")
           .locatedBy("//button[contains(@class,'btn-secondary next')]");

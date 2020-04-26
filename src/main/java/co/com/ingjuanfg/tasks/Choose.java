@@ -1,16 +1,16 @@
 package co.com.ingjuanfg.tasks;
 
-import net.serenitybdd.screenplay.Performable;
-
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
-public class Choose{
+import net.serenitybdd.screenplay.Performable;
 
-    public static Performable destinyFlight() {
-        return instrumented(DestinyFlight.class);
-    }
+public class Choose {
 
-    public static Performable returningFlight() {
-        return instrumented(ReturningFlight.class);
-    }
+  public static Performable destinyFlight() {
+    return instrumented(DestinyFlight.class);
+  }
+
+  public static Performable returningFlight() {
+    return instrumented(ReturningFlight.class);
+  }
 }

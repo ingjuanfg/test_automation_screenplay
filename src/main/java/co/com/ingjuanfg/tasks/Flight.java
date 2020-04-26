@@ -30,7 +30,6 @@ public class Flight implements Task {
         SelectDate.of(detailsFlight.get("departingDate")),
         Click.on(INPUT_DATE.of(RETURNING_DATE_INPUT)),
         SelectDate.of(detailsFlight.get("returningDate")),
-        Click.on(BTN_SEARCH_FLIGHT)
-    );
+        Click.on(BTN_SEARCH_FLIGHT));
   }
 }
