@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-    features = "src/test/resources/features/booking_flight.feature",
+    features = "src/test/resources/features/buy_dresses_woman.feature",
     glue = "co.com.ingjuanfg.stepdefinitions",
     snippets = SnippetType.CAMELCASE)
-public class BookingFlightRunner {}
+public class BuyDressesWomanRunner {}
