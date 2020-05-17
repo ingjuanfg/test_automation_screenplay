@@ -2,7 +2,7 @@ package co.com.ingjuanfg.interactions;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
-import co.com.ingjuanfg.user_interfaces.HomeProductsPage;
+import co.com.ingjuanfg.userinterface.HomeProductsPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.Performable;

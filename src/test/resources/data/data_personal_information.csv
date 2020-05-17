@@ -1,0 +1,2 @@
+id;title;firstName;lastName;password;dayBirth;monthBirth;yearBirth;company;address;city;state;postalCode;additionalInfo;homePhone;mobilePhone;alias
+1;Mrs.;Vanesa;Vanegas;123456;24;1;1993;Devco;Medellin;Medellin;Indiana;00000;Account to test automation;3334445;3334445566;vanevane
